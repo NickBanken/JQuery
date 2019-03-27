@@ -1,0 +1,41 @@
+button {
+  width: 200px;
+  height: 100px;
+  background: black;
+}
+
+.form-control {
+  color: white;
+}
+
+#blue {
+  color: blue;
+}
+
+#red {
+  color: red;
+}
+
+#green {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  font-size: 200%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #5ed8b3;
+}
+ul li:hover {
+  border: 1px solid #06815c;
+}
+
+.reset {
+  width: 10%;
+  height: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

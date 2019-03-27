@@ -1,0 +1,48 @@
+//Write your scss here and then compile it to "style.css"...
+
+button{
+    width: 200px;
+    height: 100px;
+    background: black;
+}
+
+.form-control{
+    color:white;
+}
+
+
+
+
+#blue{
+    color: blue;
+}
+
+
+
+#red{
+    color:red;
+}
+
+
+
+#green{
+    color:green;
+}
+
+ul{
+    list-style-type: none;
+    li{
+        font-size: 200%;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 1px solid rgb(94, 216, 179);
+        &:hover{
+            border:1px solid rgb(6, 129, 92);
+        }
+    }
+}
+
+.reset{
+    width: 10%;
+    height: 10%;
+}

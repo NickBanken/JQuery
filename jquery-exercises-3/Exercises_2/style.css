@@ -1,0 +1,29 @@
+button {
+  width: 200px;
+  height: 100px;
+  background: black;
+}
+
+.form-control {
+  color: white;
+}
+
+#blue {
+  color: blue;
+}
+
+#red {
+  color: red;
+}
+
+#green {
+  color: green;
+}
+
+#square {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
