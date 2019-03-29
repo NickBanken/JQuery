@@ -16,11 +16,6 @@ button {
   color: red;
 }
 
-.green {
-  background-color: #03a303;
-  color: white;
-}
-
 #green {
   color: green;
 }
@@ -31,10 +26,8 @@ button {
   background-color: black;
 }
 
-.rectangle {
-  width: 100px;
-  height: 10px;
-  background: red;
+.calc {
+  height: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

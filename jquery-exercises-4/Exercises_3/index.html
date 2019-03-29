@@ -13,7 +13,7 @@
     <!--Link to your stylesheet-->
     <link rel="stylesheet" href="style.css">
     
-    <title>3.3 - Random Guess</title>
+    <title>4.2 - Salary</title>
 
 </head>
 <body>
@@ -22,20 +22,30 @@
 
 
     <div class="container my-5 py-5 bg-white text-success ">
-        <div class = "row d-flex justify-content-center align-items-center flex-row ml-3 mr-3">
-            <button type="button" class="guess btn btn-warning">Guess your number</button>
-        
-            <form>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="guesser" placeholder="Guess your number">
+        <form id="first_form">
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationServer01">First name</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="First name" value="">
                 </div>
-            </form>
-        </div>
-        <div class = "row d-flex justify-content-center mt-5">
-            <p class ="hint">Guess the number</p>
-            <p class ="times"></p>
-        </div>
-        </div>   
+                <div class="col-md-4 mb-3">
+                    <label for="validationServer02">Last name</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Last name" value="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationServer01">Telephone</label>
+                    <input type="text" class="form-control not-valid" id="telephone" placeholder="First name" value="">
+
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
+        </form>
     </div>
 
     

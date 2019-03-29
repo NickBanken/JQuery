@@ -1,7 +1,7 @@
 //Check to see if script is linked properly.
 console.log("This script is linked properly")
 
-var number = 1 + Math.floor(Math.random() * 100);;
+var number = 1 + Math.floor(Math.random() * 100);
 let tries = 0;
 
 //Write your JS code here...
@@ -38,7 +38,7 @@ $('#guesser').keypress(function (e) {
        $('.guess').click();
        return false;  
      }
-   });   
+   });    
 
 
 
